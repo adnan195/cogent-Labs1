@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+}
+
+.main-container {
+  /* background-color: red; */
+  width: 100%;
+  color: white;
+  height: 500px;
+  background: linear-gradient(90deg, #38a3a5 0%, #202d87 100%);
+}
+
+.hero-wrapper {
+  margin: 0px 20px;
+  padding-right: 20px;
+  /* border: 2px solid red; */
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.nav img {
+  width: 14%;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+  height: 350px;
+}
+
+.search {
+  width: 60%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* text-align: end; */
+  justify-content: flex-end;
+  /* color: white; */
+}
+
+.search h1 {
+  font-size: 55px;
+  color: white;
+  margin-bottom: 50px;
+  font-weight: 200;
+
+}
+
+.search .input-search {
+  padding: 25px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+}
+
+.login-card {
+  width: 400px;
+  height: 350px;
+}
+
+.login-dev {
+  padding: 30px 25px;
+  background-color: #38a3a5;
+  height: 100%;
+  padding-left: 60px;
+}
+
+.login-dev h1 {
+  font-weight: 100;
+  margin-bottom: 45px;
+  color: white;
+
+}
+
+.login-dev p {
+  margin: 25px 0;
+  color: white;
+
+}
+
+.register {
+  width: 95%;
+  color: black;
+  padding: 15px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.fa-solid {
+  padding-right: 20px;
+  color: white;
+
+}
+
+#searchmaindiv {
+  position: relative;
+}
+#searchinput {
+  width: 100%;
+  padding-right: 70px;
+}
+#searchicon {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  color: black;
+  padding: 10px;
+}
+
+.position{
+  margin: 40px 20px;
+  font-size: 40px;
+  font-weight: 200;
+  color: #0f1439;
+}
+.position span{
+font-weight: 600;
+color: #0f1439;
+}
+.grid-cards {
+  /* border: 2px solid red; */
+  margin: 40px 20px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 60px 40px;
+  justify-content: space-between;
+}
+.card {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover{
+   h1 {
+    color: #3ad8b6;
+  }
+
+  hr{
+    margin: 25px 140px;
+    opacity: 1;
+    border: 1.6px solid #3ad8b6;
+    transition: all ease 0.6s;
+  }
+}
+.card-btn {
+  align-self: flex-start;
+  width: 20%;
+  background-color: #3ad8b6;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 0px;
+  margin-bottom: 10px;
+}
+.card h1 {
+  font-size: 20px;
+  color: #202d87;
+  margin-bottom: 25px;
+}
+.card hr {
+  margin: 25px 160px;
+  transition: all ease 0.5s;
+  border: 1.6px solid rgba(0, 0, 0, 0.068);
+}
+.card h2 {
+  margin: 15px 0;
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: 100;
+}
